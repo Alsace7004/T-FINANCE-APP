@@ -28,11 +28,50 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
     PageTitleComponent: _components_PageTitleComponent_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  methods: {
+    AjouterClient: function AjouterClient() {
+      alert("Client Ajouté avec Success !!!");
+    }
   }
 });
 
@@ -129,7 +168,27 @@ var render = function () {
         attrs: { module: "Module Client", sousModule: "Ajouter un Client" },
       }),
       _vm._v(" "),
-      _vm._m(0),
+      _c("div", { staticClass: "data" }, [
+        _c("div", { staticClass: "content-data" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("div", { staticClass: "chart" }, [
+            _vm._m(1),
+            _vm._v(" "),
+            _vm._m(2),
+            _vm._v(" "),
+            _vm._m(3),
+            _vm._v(" "),
+            _c("div", { staticClass: "mb-5" }, [
+              _c(
+                "button",
+                { staticClass: "add-btn", on: { click: _vm.AjouterClient } },
+                [_vm._v("Ajouter")]
+              ),
+            ]),
+          ]),
+        ]),
+      ]),
     ],
     1
   )
@@ -139,13 +198,75 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "data" }, [
-      _c("div", { staticClass: "content-data" }, [
-        _c("div", { staticClass: "head" }, [
-          _c("h3", [_vm._v("Ajouter Un Client")]),
+    return _c("div", { staticClass: "head" }, [
+      _c("h3", [_vm._v("Ajouter Un Client")]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticStyle: { display: "flex", "justify-content": "space-between" } },
+      [
+        _c("div", { staticClass: "input-form-group mb-5" }, [
+          _c("input", {
+            attrs: { type: "text", placeholder: "Nom du client..." },
+          }),
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "chart" }),
+        _c("div", { staticClass: "input-form-group mb-5" }, [
+          _c("input", {
+            attrs: { type: "text", placeholder: "Prenom du client..." },
+          }),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "input-form-group mb-5" }, [
+          _c("input", {
+            attrs: { type: "text", placeholder: "Email du client..." },
+          }),
+        ]),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticStyle: { display: "flex", "justify-content": "space-between" } },
+      [
+        _c("div", { staticClass: "input-form-group mb-5" }, [
+          _c("input", {
+            attrs: { type: "text", placeholder: "Telephone-1 du client..." },
+          }),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "input-form-group mb-5" }, [
+          _c("input", {
+            attrs: { type: "text", placeholder: "Telephone-2 du client..." },
+          }),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "input-form-group mb-5" }, [
+          _c("input", {
+            attrs: { type: "text", placeholder: "Adresse du client..." },
+          }),
+        ]),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "input-form-group mb-5" }, [
+      _c("select", { attrs: { name: "", id: "" } }, [
+        _c("option", { attrs: { value: "" } }, [_vm._v("Particulier")]),
+        _vm._v(" "),
+        _c("option", { attrs: { value: "" } }, [_vm._v("Entreprise")]),
       ]),
     ])
   },
