@@ -45,6 +45,43 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -160,6 +197,15 @@ var staticRenderFns = [
       _c("div", { staticClass: "content-data" }, [
         _c("div", { staticClass: "head" }, [
           _c("h3", [_vm._v("Liste des Comptes")]),
+          _vm._v(" "),
+          _c("div", { staticClass: "input-form-group" }, [
+            _c("input", {
+              attrs: {
+                type: "text",
+                placeholder: "Rechercher Par le Nom du Client...",
+              },
+            }),
+          ]),
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "chart" }, [
@@ -167,7 +213,11 @@ var staticRenderFns = [
             _c("tr", [
               _c("th", [_vm._v("#")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Libellé")]),
+              _c("th", [_vm._v("Type de Compte")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Clients")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Mise Journaliere")]),
               _vm._v(" "),
               _c("th", [_vm._v("Ajouté le")]),
             ]),
@@ -177,6 +227,10 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("td", [_vm._v("Epargne")]),
               _vm._v(" "),
+              _c("td", [_vm._v("Adebola")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("10€")]),
+              _vm._v(" "),
               _c("td", [_vm._v("26-12-2022")]),
             ]),
             _vm._v(" "),
@@ -184,6 +238,58 @@ var staticRenderFns = [
               _c("td", [_vm._v("02")]),
               _vm._v(" "),
               _c("td", [_vm._v("Courant")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Adebayo")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("0€")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("26-12-2022")]),
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("03")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Courant")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Adeshina")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("0€")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("26-12-2022")]),
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("04")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Epargne")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Adebissi")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("100€")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("26-12-2022")]),
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("04")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Epargne")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Adededji")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("200€")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("26-12-2022")]),
+            ]),
+            _vm._v(" "),
+            _c("tr", [
+              _c("td", [_vm._v("04")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Epargne")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Adeleke")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("600€")]),
               _vm._v(" "),
               _c("td", [_vm._v("26-12-2022")]),
             ]),

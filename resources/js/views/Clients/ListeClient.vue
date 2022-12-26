@@ -6,7 +6,9 @@
 				<div class="content-data">
 					<div class="head">
 						<h3>Liste des Clients</h3>
-						
+						<div class="input-form-group">
+                            <input type="text" placeholder="Rechercher par le nom...">
+                        </div>
 					</div>
 					<div class="chart">
 						<table>
@@ -19,37 +21,37 @@
 							</tr>
 							<tr>
 								<td>01</td>
-								<td>Dedji</td>
-								<td>Ayo</td>
-								<td>Abé</td>
+								<td>Ayomi</td>
+								<td>Date</td>
+								<td>Abé Okuta</td>
 								<td>450€</td>
 							</tr>
 							<tr>
 								<td>02</td>
-								<td>Dedji</td>
-								<td>Ayo</td>
-								<td>Abé</td>
+								<td>Ogb</td>
+								<td>Recent</td>
+								<td>Surulere</td>
 								<td>450€</td>
 							</tr>
 							<tr>
 								<td>03</td>
-								<td>Dedji</td>
-								<td>Ayo</td>
-								<td>Abé</td>
+								<td>Mister</td>
+								<td>Woos</td>
+								<td>Ikorodu</td>
 								<td>450€</td>
 							</tr>
 							<tr>
 								<td>04</td>
-								<td>Dedji</td>
-								<td>Ayo</td>
-								<td>Abé</td>
+								<td>Oluwa</td>
+								<td>Dolarz</td>
+								<td>Banana Island</td>
 								<td>450€</td>
 							</tr>
 							<tr>
 								<td>05</td>
-								<td>Dedji</td>
-								<td>Ayo</td>
-								<td>Abé</td>
+								<td>D-</td>
+								<td>General</td>
+								<td>Lekki</td>
 								<td>450€</td>
 							</tr>
 						</table>

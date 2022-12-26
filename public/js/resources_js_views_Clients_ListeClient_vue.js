@@ -75,6 +75,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -192,6 +194,12 @@ var staticRenderFns = [
       _c("div", { staticClass: "content-data" }, [
         _c("div", { staticClass: "head" }, [
           _c("h3", [_vm._v("Liste des Clients")]),
+          _vm._v(" "),
+          _c("div", { staticClass: "input-form-group" }, [
+            _c("input", {
+              attrs: { type: "text", placeholder: "Rechercher par le nom..." },
+            }),
+          ]),
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "chart" }, [
@@ -211,11 +219,11 @@ var staticRenderFns = [
             _c("tr", [
               _c("td", [_vm._v("01")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Dedji")]),
+              _c("td", [_vm._v("Ayomi")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Ayo")]),
+              _c("td", [_vm._v("Date")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Abé")]),
+              _c("td", [_vm._v("Abé Okuta")]),
               _vm._v(" "),
               _c("td", [_vm._v("450€")]),
             ]),
@@ -223,11 +231,11 @@ var staticRenderFns = [
             _c("tr", [
               _c("td", [_vm._v("02")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Dedji")]),
+              _c("td", [_vm._v("Ogb")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Ayo")]),
+              _c("td", [_vm._v("Recent")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Abé")]),
+              _c("td", [_vm._v("Surulere")]),
               _vm._v(" "),
               _c("td", [_vm._v("450€")]),
             ]),
@@ -235,11 +243,11 @@ var staticRenderFns = [
             _c("tr", [
               _c("td", [_vm._v("03")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Dedji")]),
+              _c("td", [_vm._v("Mister")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Ayo")]),
+              _c("td", [_vm._v("Woos")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Abé")]),
+              _c("td", [_vm._v("Ikorodu")]),
               _vm._v(" "),
               _c("td", [_vm._v("450€")]),
             ]),
@@ -247,11 +255,11 @@ var staticRenderFns = [
             _c("tr", [
               _c("td", [_vm._v("04")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Dedji")]),
+              _c("td", [_vm._v("Oluwa")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Ayo")]),
+              _c("td", [_vm._v("Dolarz")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Abé")]),
+              _c("td", [_vm._v("Banana Island")]),
               _vm._v(" "),
               _c("td", [_vm._v("450€")]),
             ]),
@@ -259,11 +267,11 @@ var staticRenderFns = [
             _c("tr", [
               _c("td", [_vm._v("05")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Dedji")]),
+              _c("td", [_vm._v("D-")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Ayo")]),
+              _c("td", [_vm._v("General")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Abé")]),
+              _c("td", [_vm._v("Lekki")]),
               _vm._v(" "),
               _c("td", [_vm._v("450€")]),
             ]),

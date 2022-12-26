@@ -72,6 +72,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -190,6 +193,15 @@ var staticRenderFns = [
       _c("div", { staticClass: "content-data" }, [
         _c("div", { staticClass: "head" }, [
           _c("h3", [_vm._v("Liste des Operations")]),
+          _vm._v(" "),
+          _c("div", { staticClass: "input-form-group" }, [
+            _c("input", {
+              attrs: {
+                type: "text",
+                placeholder: "Rechercher Par le Nom du Client...",
+              },
+            }),
+          ]),
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "chart" }, [
@@ -201,9 +213,9 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("th", [_vm._v("Prénom")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Adresse")]),
+              _c("th", [_vm._v("Montant")]),
               _vm._v(" "),
-              _c("th", [_vm._v("Salaire")]),
+              _c("th", [_vm._v("Type Operation")]),
             ]),
             _vm._v(" "),
             _c("tr", [
@@ -213,9 +225,9 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("td", [_vm._v("Ayo")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Abé")]),
-              _vm._v(" "),
               _c("td", [_vm._v("450€")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Retrait")]),
             ]),
             _vm._v(" "),
             _c("tr", [
@@ -225,9 +237,9 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("td", [_vm._v("Ayo")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Abé")]),
-              _vm._v(" "),
               _c("td", [_vm._v("450€")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Retrait")]),
             ]),
             _vm._v(" "),
             _c("tr", [
@@ -237,9 +249,9 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("td", [_vm._v("Ayo")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Abé")]),
+              _c("td", [_vm._v("480€")]),
               _vm._v(" "),
-              _c("td", [_vm._v("450€")]),
+              _c("td", [_vm._v("Retrait")]),
             ]),
             _vm._v(" "),
             _c("tr", [
@@ -249,9 +261,9 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("td", [_vm._v("Ayo")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Abé")]),
-              _vm._v(" "),
               _c("td", [_vm._v("450€")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Depot")]),
             ]),
             _vm._v(" "),
             _c("tr", [
@@ -261,9 +273,9 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("td", [_vm._v("Ayo")]),
               _vm._v(" "),
-              _c("td", [_vm._v("Abé")]),
-              _vm._v(" "),
               _c("td", [_vm._v("450€")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Depot")]),
             ]),
           ]),
         ]),
