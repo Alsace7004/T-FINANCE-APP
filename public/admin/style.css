@@ -598,7 +598,7 @@ main .btn-send:hover {
 }
 
 
-/******************************/
+/*******************************TABLE-DESIGN*******************************/
 table{
 	width: 100%;
 
@@ -621,3 +621,20 @@ th{
 tr:nth-child(odd){
 	background-color: var(--grey);
 }
+/*******************************TABLE-DESIGN*******************************/
+/*******************INPUT-INSIDE-TABLE-DESIGN*******************/
+.input-form-group{
+	width: 25%;
+	display: flex;
+	justify-content: right;
+}
+.input-form-group input{
+	width: 100%;
+	background: var(--grey);
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	padding: 10px 36px 10px 16px;
+	transition: all .3s ease;
+}
+/*******************INPUT-INSIDE-TABLE-DESIGN*******************/
